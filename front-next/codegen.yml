@@ -1,0 +1,15 @@
+overwrite: true
+schema: "https://cms-api.learnistic.com"
+# schema: "http://localhost:4000"
+documents:
+  - "src/**/*.ts*"
+  - "!(src/generated/graphql.tsx)"
+generates:
+  src/generated/graphql.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"

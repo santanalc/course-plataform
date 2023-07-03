@@ -1,0 +1,433 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desktop</title>
+    <style id="applicationStylesheet" type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+
+      .emailContainer {
+        background-color: rgba(242, 244, 245, 1);
+        padding-top: 70px;
+      }
+
+      #Desktop {
+        width: 100%;
+        max-width: 600px;
+        padding: 72px;
+        padding-top: 50px;
+        padding-bottom: 49px;
+        background-color: #fff;
+        overflow: hidden;
+
+        margin: 0 auto;
+      }
+
+      #logo {
+        width: 172.799px;
+        height: 30px;
+        margin: 0 auto;
+        overflow: visible;
+      }
+
+      #Group_1 {
+        width: 4.012px;
+        height: 1.893px;
+        overflow: visible;
+      }
+
+      #Path_1 {
+        fill: rgba(18, 121, 190, 1);
+      }
+
+      .Path_1 {
+        overflow: visible;
+
+        width: 2.329px;
+        height: 1.891px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+
+      #Path_2 {
+        fill: rgba(18, 121, 190, 1);
+      }
+
+      .Path_2 {
+        overflow: visible;
+        width: 1.584px;
+        height: 1.879px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+
+      #Group_4 {
+        width: 137.668px;
+        height: 21.181px;
+        overflow: visible;
+      }
+
+      #Group_2 {
+        width: 79.947px;
+        height: 21.181px;
+        overflow: visible;
+      }
+
+      #welcome_note {
+        overflow: visible;
+        line-height: 24px;
+        margin-top: 50px;
+        text-align: left;
+        font-family: SF Pro Rounded, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(47, 47, 47, 1);
+        letter-spacing: 0.1px;
+      }
+
+      .FooterText {
+        color: #979797;
+        padding-bottom: 0px;
+        width: 100%;
+        clear: both;
+        letter-spacing: -0.3px;
+      }
+
+      #warning_note {
+        overflow: visible;
+        height: 47px;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 37px;
+        text-align: left;
+        font-family: SF Pro Rounded, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(47, 47, 47, 1);
+        letter-spacing: 0.1px;
+      }
+
+      #thanks_note {
+        overflow: visible;
+        width: 457px;
+        height: 95px;
+        line-height: 24px;
+        margin-top: 30px;
+        text-align: left;
+        font-family: SF Pro Rounded, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(47, 47, 47, 1);
+        letter-spacing: 0.1px;
+      }
+
+      #started_note {
+        height: 46px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 31px;
+        overflow: visible;
+      }
+
+      #Rectangle_1554 {
+        fill: rgba(246, 164, 43, 1);
+      }
+
+      .Rectangle_1554 {
+        overflow: visible;
+        width: 259px;
+        height: 46px;
+      }
+
+      #Confirm {
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: SF Pro Rounded, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 1);
+        height: 46px;
+        margin: 0 auto;
+        width: 259px;
+      }
+
+      #Line_1 {
+        opacity: 0.21;
+        fill: transparent;
+        stroke: rgba(112, 112, 112, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+
+      .Line_1 {
+        overflow: visible;
+        width: 456px;
+        height: 1px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+
+      #foot_note {
+        overflow: visible;
+        width: 100%;
+        max-width: 600px;
+        height: 52px;
+        line-height: 20px;
+        text-align: center;
+        font-family: SF Pro Rounded, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(119, 119, 119, 1);
+        letter-spacing: 0.1px;
+        margin: 0 auto;
+        margin-top: 52px;
+        margin-bottom: 50px;
+      }
+
+      .foot_class {
+        font-style: normal;
+        font-weight: lighter;
+      }
+
+      ul.FooterMenu {
+        list-style: none;
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      li.MenuItem {
+        display: inline-block;
+        margin: 0 12px;
+      }
+
+      .footer a {
+        max-width: 333px;
+        color: #777777 !important;
+        text-decoration: none;
+      }
+
+      /* On screens that are 600px or less, set the background color to olive */
+      @media screen and (max-width: 600px) {
+        li.MenuItem {
+          margin-bottom: 10px;
+          margin-right: 6px;
+          margin-left: 0;
+          font-size: 11px;
+          border-right: 1px solid;
+          padding-right: 10px;
+        }
+
+        .FooterText {
+          color: #979797;
+          padding-bottom: 0px;
+          width: 100%;
+          clear: both;
+          letter-spacing: 0.11px;
+        }
+
+        .FooterMenu {
+          padding: 0;
+        }
+
+        #Desktop {
+          width: 100%;
+          padding: 20px;
+          margin: 0;
+          overflow: hidden;
+        }
+
+        .emailContainer {
+          background-color: rgba(242, 244, 245, 1);
+          padding-top: 0px;
+        }
+
+        #logo {
+          margin: 0;
+          padding: 0;
+        }
+
+        div#welcome_note {
+          margin: 30px 0;
+          padding-bottom: 0;
+          font-size: 18px;
+          text-align: left;
+          width: 100%;
+        }
+
+        #warning_note {
+          margin-top: 30px;
+          font-size: 18px;
+          margin-bottom: 0px;
+          width: 100%;
+          height: 82px;
+        }
+
+        #Line_1 {
+          opacity: 0.21;
+          fill: transparent;
+          stroke: rgba(112, 112, 112, 1);
+          stroke-width: 1px;
+          stroke-linejoin: miter;
+          stroke-linecap: butt;
+          stroke-miterlimit: 4;
+          shape-rendering: auto;
+        }
+
+        .Line_1 {
+          margin: 30.5px 0;
+          overflow: visible;
+          width: 320px;
+          height: 1px;
+          transform: matrix(1, 0, 0, 1, 0, 0);
+        }
+
+        #thanks_note {
+          margin: 0;
+          padding: 0;
+          width: 320px;
+          height: 103px;
+          font-size: 18px;
+        }
+
+        #foot_note {
+          width: 100%;
+          line-height: 20px;
+          font-family: SF Pro Rounded, Helvetica, sans-serif;
+          font-style: normal;
+          font-size: 11x;
+          font-weight: normal;
+          margin-top: 32px;
+          margin-bottom: 39px;
+          padding-right: 0;
+          padding-left: 0;
+          letter-spacing: 0.11px;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        ul.FooterMenu {
+          margin-bottom: 15px;
+        }
+
+        body li.MenuItem {
+          width: 100%;
+          border: none;
+          margin-bottom: 5px;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      font-family: 'SF Pro Rounded', Helvetica;
+      background-color: rgba(242, 244, 245, 1);
+    "
+  >
+    <div class="emailContainer">
+      <div id="Desktop">
+        <div id="logo">
+          <img
+            src="https://learnistic.com/assets/learnistic-logo.png"
+            width="172px"
+            height="30px"
+            alt="Learnistic"
+            srcset=""
+          />
+        </div>
+
+        <div
+          style="
+            font-size: 15px;
+            margin: 31px 0px 31px 0;
+            padding-bottom: 20px;
+            color: #000;
+          "
+        >
+          <p>{{appOwner}} has invited you to their {{appName}} app.</p>
+          <p>Your temporary passcode is:</p>
+          <p><b>{{password}}</b></p>
+          <p>
+            To access the app, please click the button below to complete the
+            registration.
+          </p>
+          <p style="text-align: center; margin: 30px 0px 25px 0px; width: 100%">
+            <a href="{{link}}"
+              ><button
+                style="
+                  font-size: 20px;
+                  width: 100%;
+                  padding: 10px 30px;
+                  background: #f6a42b;
+                  color: #fff;
+                  box-shadow: none;
+                  border: none;
+                  border-radius: 30px;
+                  cursor: pointer;
+                "
+              >
+                Register
+              </button></a
+            >
+          </p>
+
+          <p>If you have any troubles, please contact us here:</p>
+          <p>{{signature}}</p>
+        </div>
+
+        <svg class="Line_1" viewBox="0 0 456 1">
+          <path id="Line_1" d="M 0 0 L 456 0"></path>
+        </svg>
+        <div id="thanks_note">
+          <span>Thanks, <br /><br />The Learnecclesia</span><br /><span
+            style="color: rgba(119, 119, 119, 1)"
+            >(Learnistic Support)</span
+          >
+        </div>
+      </div>
+    </div>
+    <div id="foot_note" class="footer">
+      <ul class="FooterMenu">
+        <li class="MenuItem">
+          <a
+            href="https://learnistic.com/pp"
+            target="_blank"
+            class="PrivacyPolicy"
+            >Privacy Policy</a
+          >
+        </li>
+        <li class="MenuItem">
+          <a
+            href="https://learnistic.com/tos"
+            target="_blank"
+            class="PrivacyPolicy"
+            >Terms of Service</a
+          >
+        </li>
+        <li class="MenuItem">
+          <a
+            href="https://learnistic.com/eula"
+            target="_blank"
+            class="PrivacyPolicy"
+            >End User License Agreement</a
+          >
+        </li>
+      </ul>
+      <div class="FooterText">
+        &copy;Learnistic LLC {{currentYear}}<br />13506 Summerport Village
+        Parkway #714, Windermere, FL 34786
+      </div>
+    </div>
+  </body>
+</html>

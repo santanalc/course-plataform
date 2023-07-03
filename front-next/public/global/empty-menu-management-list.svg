@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="162" viewBox="0 0 92 162">
+  <g id="Illustration" transform="translate(-217 220.423)">
+    <g id="Bee" transform="translate(-915 -867.201)">
+      <g id="Line">
+        <path id="Line-2" data-name="Line" d="M58.544,67.257S31.5,80.561,20.666,55.874,47.027,3,50.631,16.439,13.512,26.97,27.982.905" transform="translate(1176.621 649.258) rotate(43)" fill="none" stroke="#ddd" stroke-width="2" stroke-dasharray="5 3"/>
+      </g>
+      <g id="bee-2" data-name="bee" transform="translate(1189.938 646.278)">
+        <path id="Caminho_10042" data-name="Caminho 10042" d="M7.338,25.732a12.476,12.476,0,0,0,2.419-.245c.407-.081,1.27-.3,2.132-.576,1.662-.524,1.925-.786,2.052-.912a.766.766,0,0,0,.137-.9c-.1-.186-.184-.359-.267-.527a12.287,12.287,0,0,0-.613-1.126,9.577,9.577,0,0,0-1.536-1.912A9.69,9.69,0,0,0,8.884,17.5a9.505,9.505,0,0,0-3.979-.9A4.924,4.924,0,0,0,.4,18.752c-.744,1.312-.447,2.839.883,4.538a7.462,7.462,0,0,0,3.631,2.146,9.566,9.566,0,0,0,2.425.3Zm0,0" transform="translate(0 -15.279)" fill="#ccc" opacity="0.7"/>
+        <path id="Caminho_10043" data-name="Caminho 10043" d="M305.12,8.027a.749.749,0,0,0,.122-.01A7.208,7.208,0,0,0,307.174,7,6.35,6.35,0,0,0,308.6,5.559a3.923,3.923,0,0,0,.505-3.9A2.007,2.007,0,0,0,307.284.5a3.07,3.07,0,0,0-1.664.567,4.317,4.317,0,0,0-1.8,3.306,5.372,5.372,0,0,0,.657,3.307A.766.766,0,0,0,305.12,8.027Zm0,0" transform="translate(-288.389)" fill="#bbb"/>
+        <path id="Caminho_10044" data-name="Caminho 10044" d="M360.756,189.21a7.834,7.834,0,0,0-7-4.847,10.548,10.548,0,0,0,.328,7.326c1.085,2.826,3.086,5.077,5.155,5.883A7.866,7.866,0,0,0,360.756,189.21Zm0,0" transform="translate(-335.355 -174.612)" fill="#009bd5"/>
+        <path id="Caminho_10045" data-name="Caminho 10045" d="M227.175,194.484a12.357,12.357,0,0,1-.558-7.754,7.878,7.878,0,0,0-1.608.474,12.427,12.427,0,0,0-3.993,3.066,16.139,16.139,0,0,0,1.124,6.062,15.822,15.822,0,0,0,3.924,5.952c.339.014.67.023.989.023a10.747,10.747,0,0,0,3.969-.586,7.844,7.844,0,0,0,1.466-.8A12.082,12.082,0,0,1,227.175,194.484Zm0,0" transform="translate(-209.871 -176.858)" fill="#00161f"/>
+        <path id="Caminho_10046" data-name="Caminho 10046" d="M130.954,290.383q-.189.25-.374.509c-1.835,2.563-2.931,5.092-2.931,6.765,0,.735.762,1.148,1.425,1.426a16.517,16.517,0,0,0,2.553.77,33.31,33.31,0,0,0,3.546.606,18.109,18.109,0,0,1-3.06-5.217A18.372,18.372,0,0,1,130.954,290.383Zm0,0" transform="translate(-121.181 -275.218)" fill="#009bd5"/>
+      </g>
+      <g id="Plus">
+        <line id="Linha_225" data-name="Linha 225" y2="5" transform="translate(1220.5 684.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        <line id="Linha_226" data-name="Linha 226" y2="5" transform="translate(1223 687) rotate(90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <g id="Elipse_136" data-name="Elipse 136" transform="translate(1210 700)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="1" cy="1" r="1" stroke="none"/>
+        <circle cx="1" cy="1" r="0.5" fill="none"/>
+      </g>
+      <g id="Elipse_137" data-name="Elipse 137" transform="translate(1171 668)" fill="none" stroke="#707070" stroke-width="1">
+        <circle cx="2" cy="2" r="2" stroke="none"/>
+        <circle cx="2" cy="2" r="1.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Retângulo_1919" data-name="Retângulo 1919" transform="translate(217 -128.423)" fill="#fff" stroke="#e2e2e2" stroke-width="3">
+      <rect width="90" height="20" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="87" height="17" rx="3.5" fill="none"/>
+    </g>
+    <g id="Retângulo_1920" data-name="Retângulo 1920" transform="translate(217 -103.423)" fill="#fff" stroke="#e2e2e2" stroke-width="3">
+      <rect width="90" height="20" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="87" height="17" rx="3.5" fill="none"/>
+    </g>
+    <g id="Retângulo_1921" data-name="Retângulo 1921" transform="translate(217 -78.423)" fill="#fff" stroke="#e2e2e2" stroke-width="3">
+      <rect width="90" height="20" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="87" height="17" rx="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>

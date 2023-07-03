@@ -1,0 +1,75 @@
+{
+  "DEV_MODE": true,
+  "FIREBASE_CREDENTIALS_PROD": {
+    "type": "",
+    "project_id": "",
+    "private_key_id": "",
+    "private_key": "",
+    "client_email": "",
+    "client_id": "",
+    "auth_uri": "",
+    "token_uri": "",
+    "auth_provider_x509_cert_url": "",
+    "client_x509_cert_url": "",
+    "databaseURL": "",
+    "apiKey": ""
+  },
+  "FIREBASE_CREDENTIALS_DEV": {
+    "type": "",
+    "project_id": "",
+    "private_key_id": "",
+    "private_key": "",
+    "client_email": "",
+    "client_id": "",
+    "auth_uri": "",
+    "token_uri": "",
+    "auth_provider_x509_cert_url": "",
+    "client_x509_cert_url": ""
+  },
+  "FIREBASE_CLIENT_PROD": {
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": ""
+  },
+  "FIREBASE_CLIENT_DEV": {
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": ""
+  },
+  "S3": {
+    "signatureVersion": "",
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "region": "",
+    "apiVersion": "",
+    "sourceBucket": "",
+    "sourceBucketDev": "",
+    "cloudBucket": "",
+    "cloudBucketDev": ""
+  },
+  "PLACES_API_KEY": "",
+  "MAILGUN_TEST_MODE": true,
+  "MAILGUN_API_KEY": "",
+  "INFUSION_AUTHORIZATION": "",
+  "VERSION": 2,
+  "TD_LINK": "",
+  "FROM_NAME": "",
+  "FROM_EMAIL": "",
+  "TWILIO": {
+    "FROM": "",
+    "ACCOUNT_SID": "",
+    "AUTH_TOKEN": "0"
+  },
+  "DEV_PUSH_KEY": "",
+  "PROD_PUSH_KEY": "",
+  "DEV_URL": "",
+  "PRO_DURL": ""
+}
